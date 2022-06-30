@@ -1,0 +1,59 @@
+
+    \section{Privacy-Preserving Cryptographic Toolbox}
+     \frame{\sectionpage}
+
+     \subsection{Commitments}
+     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     
+ \begin{frame}{Basic Commitment}
+ 
+  \only<1>{
+   Digital Analog of Sealed envelope.
+  \begin{center}
+  \includegraphics[width=8cm]{images/commitment.jpg}
+  
+  \tikzset{>=latex}
+  \end{center}
+  }
+  \only<2>
+  {
+  
+  $
+    \begin{array}{c c c}
+&&\\
+         
+\begin{minipage}{4cm}
+\begin{center}
+ \includegraphics[width=1cm]{images/alice.jpg}
+ \end{center}
+\end{minipage}
+&&
+     
+\begin{minipage}{4cm}
+\begin{center}
+ \includegraphics[width=1cm]{images/bob.jpg}
+ \end{center}
+\end{minipage}
+\\
+\text{\textsf{Prover}} & & \text{\textsf{Verifier}} \\
+com = H(m,r) &  \xrightarrow{\hspace{1em}
+\begin{minipage}{1cm}
+\begin{center}
+ \includegraphics[width=1cm]{images/closed.jpg}
+ \vspace{0.05cm} $com$
+ \end{center} 
+\end{minipage}  \hspace{1em}} & \\
+
+ & \xrightarrow{\hspace{1em}
+\begin{minipage}{1cm}
+\begin{center}
+ \includegraphics[width=1cm]{images/opened.jpg}
+ \vspace{0.05cm} $Open(m,r)$
+ \end{center} 
+\end{minipage}  \hspace{1em}} &  com \stackrel{?}{=}H(m,r)
+
+\end{array}$
+  }
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     

@@ -1,0 +1,81 @@
+	\documentclass[aspectratio=43]{beamer}
+\usepackage[english]{babel}
+\input{chapters/preamble}
+
+    \setbeamertemplate{background} 
+    {
+        \includegraphics[width=\paperwidth,height=\paperheight]{images/fond1.jpg}
+    }
+\title{Hack the Web3.0 : SDK3 for Web3} %->->->->-> Check hyperref title <-<-<-<-<-
+\subtitle{ZKP Tools in the Nano}
+\author[R. Dubois]{\textcolor{yellow}{Renaud Dubois}}
+\institute[LIT]{
+    \textcolor{white}{Ledger}%
+    \\%
+    \textcolor{white}{Innovation Team}%
+} %You can change the Institution if you are from somewhere else
+\date{\today}
+%\logo{\includegraphics[width= 0.05\textwidth]{images/logo.png}}
+
+\begin{document}
+    
+    \frame{\titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Zero Knowledge Proofs}
+
+\begin{frame}
+ \begin{center}
+ \textcolor{yellow}{\fbox{Zero Kowledge Proofs}} 
+ \end{center}
+ 
+ 
+
+ \fbox{\parbox{\textwidth}{
+
+ \begin{itemize} 
+ \item Zero-knowledge proof is a method by which a prover can prove to a verifier that a given statement is true while the verifier doesn't learn information except the statement result.
+ \item ZKP enable transaction hiding (Monero, ZCash), range proof, proof of membership, ZK-Rollups (Layer 2). 
+ \item Most of building blocks for Privacy-Preserving and ZKP rely on the use of {\bf Pairings over Elliptic curves} (Zk-snarks, Commitments, Efficient signatures)
+ \item Ledger direct examples : Linkable Signatures for Anonymous airdrop ({\bf device ID}), Ring signature ({\bf endorsement}), Strongly Verifiable SS ({\bf Protect}), {\bf Decentralized Identifiers}.
+ \end{itemize}
+ }}
+    
+\end{frame}
+
+
+\begin{frame}
+ 
+ \begin{center}
+ \includegraphics[width=7cm]{cryptomodules.jpg}
+ \end{center}
+ 
+ \begin{center}
+ \textcolor{yellow}{\fbox{The hack}} 
+ \fbox{\parbox{\textwidth}{
+
+ \begin{itemize} 
+ \item Strip modular arithmetic from Open Source (blst library)
+ \item Accelerate using bolos calls (available in green on figure)
+ \item Push the result as a ``Package'' that external developpers can use for ZKP integration on Nano.
+ \item Join slack \#zero-knowledge 
+ \end{itemize}
+ }}
+
+ \end{center}
+ 
+ 
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \section{}
+    \begin{frame}{}
+        \centering
+            \Huge\bfseries
+        \textcolor{yellow}{Questions ?}
+            \includegraphics[width=12cm]{images/questions.jpg}
+     
+    \end{frame}
+\end{document}
+
+% https://en.wikipedia.org/wiki/Privacy
+% [CL16]: Concepts Around Privacy-Preserving Attribute-Based CredentialsJan Camenisch  https://hal.archives-ouvertes.fr/hal-01276046/document
