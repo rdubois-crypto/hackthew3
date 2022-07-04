@@ -1,4 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Zero Knowledge Proofs}{2}{0}{1}
+\beamer@sectionintoc {1}{ZKP : The Epic Fight between Snarks and Starks}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Zero Knowledge Proofs}{4}{0}{2}
