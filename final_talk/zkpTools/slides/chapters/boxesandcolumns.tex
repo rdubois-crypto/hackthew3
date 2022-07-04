@@ -1,0 +1,94 @@
+\section{boxes and columns}
+ \frame{\sectionpage}
+ 
+\begin{frame}{Box}
+    \begin{center}
+        \textcolor{yellow}{\fbox{phrase inside box}} 
+
+    \bigskip    
+    
+    \fbox{\parbox{\textwidth}{A big box\\ \[ 
+    \{R^n_{\alpha}(0) \; | \; n \in \mathbb{N}\} = \{n\alpha \; \mathrm{mod}\;1 \; | \; n \in \mathbb{N}\} \]
+    é denso em \([0,1)\). }}
+ \end{center}
+\end{frame}
+    
+\begin{frame}{Two Columns entire page}
+\small
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\tiny \pause \textcolor{yellow}{Obs:} \(\alpha \eqdef \log b \in \mathbb{R}\backslash\mathbb{Q}\)
+\small \pause 
+   \begin{align*}
+    R_\alpha \colon [0,1) &\longrightarrow [0,1) \\
+                      x   &\longmapsto x + \alpha \; \mathrm{mod}\;1           
+\end{align*}
+\pause 
+\small 
+Here we can write some text Here we can write some text Here we can write some text Here we can write some text Here we can write some text  Here we can write some text  Here we can write some text
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+\pause 
+\[R^n_\alpha(x) \eqdef R_\alpha \overbrace{\circ \ldots \circ }^{n} R_\alpha(x)\]
+
+\pause 
+
+Here we can write some text Here we can write some text Here we can write some text Here we can write some text Here we can write some text  Here we can write some text  Here we can write some text
+
+\bigskip 
+
+\footnotesize 
+\textcolor{yellow}{\fbox{\parbox{\textwidth}{Question??????????? tell me if you want}}} 
+\bigskip
+
+the answer is 
+\pause 
+\textcolor{green2}{YES!!!!} \textcolor{green2}{because that that and that} or..
+
+\bigskip 
+
+The answer is \textcolor{red2}{NO!!!!} \textcolor{red2}{because that that and that}
+
+\end{column}
+\end{columns}
+
+\end{frame}
+    
+    
+\begin{frame}{Table and minipage}
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\(n\) & 1  & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & \ldots       \\ \hline
+\(2^n\) & \textcolor{yellow}{2} & \textcolor{yellow}{4} & \textcolor{yellow}{8} & \textcolor{yellow}{1}6 & \textcolor{yellow}{3}2 & \textcolor{yellow}{6}4 & \textcolor{yellow}{1}28 &  \textcolor{yellow}{2}56 & \textcolor{yellow}{5}12 & \textcolor{yellow}{1}024 & \textcolor{yellow}{2}048 & \ldots    \\ \hline
+\end{tabular}
+\end{center}
+
+\pause 
+
+\bigskip
+
+\begin{center}
+\textcolor{yellow}{\fbox{o dígito 1 é mais frequente que o dígito 3?}}
+\bigskip
+
+\pause \tiny Spoiler: \textcolor{green2}{YES}.
+
+\end{center}
+
+
+\pause 
+\bigskip
+\small 
+\
+\pause 
+\begin{minipage}{0.47\textwidth}
+    Um conjunto de números satisfaz a \emph{\textcolor{yellow}{lei de Benford}} se o primeiro dígito \(d \in \{1,2,3,4,5,6,7,8,9\} \) ocorre com a seguinte proporção 
+\end{minipage}
+\begin{minipage}{0.47\textwidth}
+    \centering  \textcolor{yellow}{\(P(d) = \log\bigg(1+ \frac{1}{d}\bigg) \)} 
+\end{minipage}
+\end{frame}
+

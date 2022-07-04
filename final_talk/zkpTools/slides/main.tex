@@ -20,6 +20,39 @@
 \begin{document}
     
     \frame{\titlepage}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{ZKP : The Epic Fight between Snarks and Starks}
+ 
+
+\begin{frame}
+ \begin{center}
+    
+ \begin{tabular}{|ccc|} 
+\hline
+ STARKs & & SNARKs\\
+ 
+ \includegraphics[width=3.5cm]{images/stark.jpg}
+  &
+  \huge{\bf VS}
+  &~~~
+ \includegraphics[width=3cm]{images/snark.jpg}~~~\\
+ \hline
+ Computational integrity  & & Privacy-enhancing\\
+ \hline
+ Post quantum, No trusted Setup && Asymptotic complexities ++ \\
+ \hline
+ Delegation, Layer 2 && SSI, transaction hiding \\
+ \hline
+ \end{tabular}
+ \end{center}
+ 
+ \only<2>{
+ Snarks are fun because they used Pairings. And Pairings are cool.
+ }
+ 
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \section{Zero Knowledge Proofs}
 
@@ -33,30 +66,33 @@
  \fbox{\parbox{\textwidth}{
 
  \begin{itemize} 
- \item Zero-knowledge proof is a method by which a prover can prove to a verifier that a given statement is true while the verifier doesn't learn information except the statement result.
- \item ZKP enable transaction hiding (Monero, ZCash), range proof, proof of membership, ZK-Rollups (Layer 2). 
- \item Most of building blocks for Privacy-Preserving and ZKP rely on the use of {\bf Pairings over Elliptic curves} (Zk-snarks, Commitments, Efficient signatures)
+ 
+ \item Pairings enable Zk-snarks, Commitments, Efficient signatures
  \item Ledger direct examples : Linkable Signatures for Anonymous airdrop ({\bf device ID}), Ring signature ({\bf endorsement}), Strongly Verifiable SS ({\bf Protect}), {\bf Decentralized Identifiers}.
  \item More info : 
  \begin{itemize} 
- \item Join slack \#zero-knowledge 
  \item \url{https://github.com/rdubois-crypto/PrivacyProtocols/blob/main/report/Privacy.pdf}
  \end{itemize}
  \end{itemize}
  
  }}
-    
+ \vskip+1cm
+All of this provides futurist SSI and DIds systems, and endpoint needs to implement Pairings for efficiency.
+
 \end{frame}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
  
+ 
+ \only<1>{
  \begin{center}
  \includegraphics[width=7cm]{cryptomodules2.jpg}
  \end{center}
  
+ 
  \begin{center}
- \textcolor{yellow}{\fbox{The hack}} 
+ \textcolor{yellow}{\fbox{The Initial Hack Objective}} 
  \fbox{\parbox{\textwidth}{
 
  \begin{itemize} 
@@ -66,7 +102,33 @@
  \item https://github.com/rdubois-crypto/hackthew3
  \end{itemize}
  }}
-
+ }
+ \only<2-3>{
+ \begin{center}
+ \textcolor{yellow}{\fbox{What did we achieve ?}}
+ \vskip+0.5cm
+ \fbox{\parbox{\textwidth}{
+\only<2>
+{
+ \begin{center}
+ 
+ \includegraphics[width=7cm]{images/calimero.png}
+ \end{center}
+ 
+ Not much : alone, no Montgomery handling yet in speculos
+ 
+}
+\only<3>{
+ \begin{itemize} 
+ \item Blst deep understanding, capacity to wrap efficiently
+ \item Identification of source code ``strip-required points''
+ \item Integrate blst for ``speculos-pairing ready version''
+ \item https://github.com/rdubois-crypto/hackthew3
+ \end{itemize}
+ }}}
+ 
+ 
+ }
  \end{center}
  
  
