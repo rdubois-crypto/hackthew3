@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  5 JUL 2022 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  5 JUL 2022 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1568,13 +1568,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/fond1.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1583,52 +1583,52 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <images/stark.jpg, id=38, 99.37125pt x 71.26625pt>
 File: images/stark.jpg Graphic file (type jpg)
 <use images/stark.jpg>
-Package pdftex.def Info: images/stark.jpg  used on input line 54.
+Package pdftex.def Info: images/stark.jpg  used on input line 56.
 (pdftex.def)             Requested size: 99.58464pt x 71.42155pt.
 <images/snark.jpg, id=39, 216.81pt x 180.17313pt>
 File: images/snark.jpg Graphic file (type jpg)
 <use images/snark.jpg>
-Package pdftex.def Info: images/snark.jpg  used on input line 54.
+Package pdftex.def Info: images/snark.jpg  used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 70.93529pt.
 
-Overfull \hbox (1.25607pt too wide) in paragraph at lines 54--54
+Overfull \hbox (1.25607pt too wide) in paragraph at lines 56--56
  [] 
  []
 
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 54.
+Package pdftex.def Info: images/fond1.jpg  used on input line 56.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [2
 
  <./images/stark.jpg> <./images/snark.jpg>]
 File: images/stark.jpg Graphic file (type jpg)
 <use images/stark.jpg>
-Package pdftex.def Info: images/stark.jpg  used on input line 54.
+Package pdftex.def Info: images/stark.jpg  used on input line 56.
 (pdftex.def)             Requested size: 99.58464pt x 71.42155pt.
 File: images/snark.jpg Graphic file (type jpg)
 <use images/snark.jpg>
-Package pdftex.def Info: images/snark.jpg  used on input line 54.
+Package pdftex.def Info: images/snark.jpg  used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 70.93529pt.
 
-Overfull \hbox (1.25607pt too wide) in paragraph at lines 54--54
+Overfull \hbox (1.25607pt too wide) in paragraph at lines 56--56
  [] 
  []
 
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 54.
+Package pdftex.def Info: images/fond1.jpg  used on input line 56.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [3
 
 ]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 82--82
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 84--84
 [][]  
  []
 
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 82.
+Package pdftex.def Info: images/fond1.jpg  used on input line 84.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [4
 
@@ -1636,27 +1636,27 @@ Package pdftex.def Info: images/fond1.jpg  used on input line 82.
 <cryptomodules2.jpg, id=65, 202.25563pt x 133.49875pt>
 File: cryptomodules2.jpg Graphic file (type jpg)
 <use cryptomodules2.jpg>
-Package pdftex.def Info: cryptomodules2.jpg  used on input line 140.
+Package pdftex.def Info: cryptomodules2.jpg  used on input line 142.
 (pdftex.def)             Requested size: 199.16928pt x 131.46341pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 140--140
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 142--142
  [] 
  []
 
 
-Overfull \vbox (2.72086pt too high) detected at line 140
+Overfull \vbox (2.72086pt too high) detected at line 142
  []
 
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 140.
+Package pdftex.def Info: images/fond1.jpg  used on input line 142.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [5
 
  <./cryptomodules2.jpg>]
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 140.
+Package pdftex.def Info: images/fond1.jpg  used on input line 142.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
  [6
 
@@ -1664,47 +1664,47 @@ Package pdftex.def Info: images/fond1.jpg  used on input line 140.
 <images/calimero.png, id=80, 311.1625pt x 225.34187pt>
 File: images/calimero.png Graphic file (type png)
 <use images/calimero.png>
-Package pdftex.def Info: images/calimero.png  used on input line 140.
+Package pdftex.def Info: images/calimero.png  used on input line 142.
 (pdftex.def)             Requested size: 199.16928pt x 144.23892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 140--140
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 142--142
  [][] 
  []
 
 
-Overfull \vbox (6.62529pt too high) detected at line 140
+Overfull \vbox (6.62529pt too high) detected at line 142
  []
 
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 140.
+Package pdftex.def Info: images/fond1.jpg  used on input line 142.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [7
 
  <./images/calimero.png>]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 140--140
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 142--142
  [][] 
  []
 
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 140.
+Package pdftex.def Info: images/fond1.jpg  used on input line 142.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [8
 
 ]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 176--176
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 178--178
 [][]  
  []
 
 <images/bottle2.jpg, id=103, 122.6181pt x 81.6651pt>
 File: images/bottle2.jpg Graphic file (type jpg)
 <use images/bottle2.jpg>
-Package pdftex.def Info: images/bottle2.jpg  used on input line 176.
+Package pdftex.def Info: images/bottle2.jpg  used on input line 178.
 (pdftex.def)             Requested size: 113.81102pt x 75.79945pt.
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 176.
+Package pdftex.def Info: images/fond1.jpg  used on input line 178.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
 [9
 
@@ -1712,11 +1712,11 @@ Package pdftex.def Info: images/fond1.jpg  used on input line 176.
 <images/questions.jpg, id=112, 307.1475pt x 191.71625pt>
 File: images/questions.jpg Graphic file (type jpg)
 <use images/questions.jpg>
-Package pdftex.def Info: images/questions.jpg  used on input line 186.
+Package pdftex.def Info: images/questions.jpg  used on input line 188.
 (pdftex.def)             Requested size: 341.43306pt x 213.12933pt.
 File: images/fond1.jpg Graphic file (type jpg)
 <use images/fond1.jpg>
-Package pdftex.def Info: images/fond1.jpg  used on input line 186.
+Package pdftex.def Info: images/fond1.jpg  used on input line 188.
 (pdftex.def)             Requested size: 364.19705pt x 273.14545pt.
  [10
 
@@ -1730,11 +1730,11 @@ Package pdftex.def Info: images/fond1.jpg  used on input line 186.
 \tf@snm=\write11
 \openout11 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 29C8EF6A4889DFF0D86E288A63B61F3E;172.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1757,7 +1757,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (10 pages, 913783 bytes).
+Output written on main.pdf (10 pages, 913923 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
