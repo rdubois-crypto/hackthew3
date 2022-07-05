@@ -67,7 +67,7 @@
 
  \begin{itemize} 
  
- \item Pairings enable Commitments, Efficient signatures, Zk-snarks, Anonymous Credentials (SSI)
+ \item Pairings enable Zk-snarks, Commitments, Efficient signatures
  \item Ledger direct examples : Linkable Signatures for Anonymous airdrop ({\bf device ID}), Ring signature ({\bf endorsement}), Strongly Verifiable SS ({\bf Protect}), {\bf Decentralized Identifiers}.
  \item More info : 
  \begin{itemize} 
@@ -98,37 +98,32 @@ All of this provides futurist SSI and DIds systems, and endpoint needs to implem
  \begin{itemize} 
  \item Strip modular arithmetic from Open Source (blst library)
  \item Accelerate using bolos calls (available in pink square on figure)
- 
- \item {\red\tt\small cx\_err\_t cy\_pairing\_asn1(cx\_curve\_t curve, uint8\_t *P1, size\_t P1\_len,                         uint8\_t *P2, size\_t P2\_len,
-                         uint8\_t *e, size\_t e\_len);}
- \item Push the result as a ``Package'' for external ZKP developpers 
+ \item Push the result as a ``Package'' that external developpers can use for ZKP integration on Nano.
+ \item https://github.com/rdubois-crypto/hackthew3
  \end{itemize}
  }}
  }
- \only<2-4>{
+ \only<2-3>{
  \begin{center}
  \textcolor{yellow}{\fbox{What did we achieve ?}}
  \vskip+0.5cm
  \fbox{\parbox{\textwidth}{
-\only<3>
+\only<2>
 {
  \begin{center}
- Not that much !
- \vskip+0.3cm
+ 
  \includegraphics[width=7cm]{images/calimero.png}
  \end{center}
  
- No $BLS12\_381\_G_2$ API in sdk2, no Montgomery handling yet in speculos
- \url{https://github.com/rdubois-crypto/hackthew3}
+ Not much : alone, no Montgomery handling yet in speculos
  
 }
-\only<4>{
+\only<3>{
  \begin{itemize} 
- \item Blst  understanding, capacity to wrap and developp protocols on top
- \item Note that blst enables multisig/threshold over BLS (compare with Musig2)
+ \item Blst deep understanding, capacity to wrap efficiently
  \item Identification of source code ``strip-required points''
- \item Integrate blst for ``speculos-pairing ready version'', $G_2$
- 
+ \item Integrate blst for ``speculos-pairing ready version''
+ \item https://github.com/rdubois-crypto/hackthew3
  \end{itemize}
  }}}
  
@@ -137,42 +132,6 @@ All of this provides futurist SSI and DIds systems, and endpoint needs to implem
  \end{center}
  
  
-\end{frame} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
- \begin{center}
- \textcolor{yellow}{\fbox{What's Next ?}} 
- \end{center}
- 
- 
-
- \fbox{\parbox{\textwidth}{
-
- \begin{itemize} 
- \item Make target (Nano) integration
- \item Overwrap blst and bolos into unified APIs (on top of blst, libECC, bolos and libsec256k1) join work with ANSSI, CryptoNext, THALES.
- 
- \url{https://github.com/rdubois-crypto/cylib}
-
- \item First use case : {\red Groth Signature} (widely used efficient sig for ZKP)
- 
- \url{https://eprint.iacr.org/2015/824.pdf}
- \item More info : 
- \begin{itemize} 
- \item \url{https://github.com/rdubois-crypto/PrivacyProtocols/blob/main/report/Privacy.pdf}
- \end{itemize}
- \end{itemize}
- 
- 
- 
- }}
-
- \begin{center}
- \includegraphics[width=4cm]{images/bottle2.jpg}
- \end{center}
-
-
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
