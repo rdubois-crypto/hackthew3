@@ -20,4 +20,4 @@ The aim of the initiative is to replace the calls of the bottom layers (modular 
 
 ## License
 
-The files in this project are provided under a dual BSD/GPLv2 license. When
+The files in this project are provided under a dual BSD/GPLv2 license.
