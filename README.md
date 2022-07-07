@@ -1,5 +1,6 @@
 # Results (6/7/2022)
-- blst has been integrated in the speculos framework
+
+- blst has been integrated in the speculos framework without tests (not tested= it fails)
 - no integration or test where performed over Nano
 - final presentation is available in final_talk repo
 
