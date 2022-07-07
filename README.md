@@ -3,7 +3,8 @@
 - no integration or test where performed over Nano
 - final presentation is available in final_talk repo
 
-The work now continues in the cylib repo.
+We failed fast but had fun. Congrats to the 'Ledger Your crypto' winner team. The work now continues in the cylib repo.
+
 
 # (Expired) 
 What follows was the initial objectives of the hackaton
